@@ -1,0 +1,1 @@
+import{c9 as r,aS as a,bZ as t}from"./index-DTYAWF45.js";var e={},o=a;Object.defineProperty(e,"__esModule",{value:!0});var u=e.default=void 0,v=o(r()),i=t;u=e.default=(0,v.default)((0,i.jsx)("path",{d:"M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"}),"Home");export{u as d};
