@@ -8,7 +8,7 @@
 /coverage
 
 # production
-# /build
+/build
 
 # misc
 .DS_Store
@@ -45,7 +45,6 @@ amplify/
 #amplify/backend/amplify-meta.json
 #amplify/backend/.temp
 # build/
-# dist/
 node_modules/
 aws-exports.js
 awsconfiguration.json
