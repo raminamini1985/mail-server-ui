@@ -13,7 +13,7 @@ import { useAppSelector } from 'app/store/hooks'
 import LeftSideLayout1 from './components/LeftSideLayout1'
 // import NavbarWrapperLayout1 from './components/NavbarWrapperLayout1'
 // import RightSideLayout1 from './components/RightSideLayout1'
-// import ToolbarLayout1 from './components/ToolbarLayout1'
+import ToolbarLayout1 from './components/ToolbarLayout1'
 
 const FuseDialog = lazy(() => import('@fuse/core/FuseDialog/FuseDialog'))
 
@@ -64,11 +64,11 @@ function Layout1(props: Layout1Props) {
           id="fuse-main"
           className="relative z-10 flex min-h-full min-w-0 flex-auto flex-col"
         >
-          {/* {config.toolbar.display && (
+          {config.toolbar.display && (
             <ToolbarLayout1
               className={config.toolbar.style === 'fixed' ? 'sticky top-0' : ''}
             />
-          )} */}
+          )}
 
           {/* <div className="sticky top-0 z-99">
             <Configurator />
