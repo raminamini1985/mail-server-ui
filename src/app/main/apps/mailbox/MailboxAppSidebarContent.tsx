@@ -27,15 +27,15 @@ function MailboxAppSidebarContent() {
       <div className="flex h-full items-center overflow-x-auto px-8 py-10">
         <UserMenu />
       </div>
-      <div className="mb-24 mt-40 mx-24">
-        <motion.div
+      <div className="mb-24 mt-10 mx-24">
+        {/* <motion.div
           initial={{ x: 20, opacity: 0 }}
           animate={{ x: 0, opacity: 1, transition: { delay: 0.2 } }}
         >
           <Typography className="text-4xl font-extrabold tracking-tight leading-none">
             Mailbox
           </Typography>
-        </motion.div>
+        </motion.div> */}
 
         <motion.div
           initial={{ opacity: 0 }}

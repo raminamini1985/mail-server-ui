@@ -1,1 +1,0 @@
-import{br as r,ag as t,bs as a}from"./index-B-gixM8z.js";var e={},o=t;Object.defineProperty(e,"__esModule",{value:!0});var s=e.default=void 0,u=o(r()),i=a;s=e.default=(0,u.default)((0,i.jsx)("path",{d:"M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2m0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2"}),"MoreVert");export{s as d};
