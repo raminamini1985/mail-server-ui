@@ -1,0 +1,1 @@
+import{br as r,ag as a,bs as t}from"./index-DaquC3HQ.js";var e={},o=a;Object.defineProperty(e,"__esModule",{value:!0});var u=e.default=void 0,d=o(r()),s=t;u=e.default=(0,d.default)((0,s.jsx)("path",{d:"m20 12-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8z"}),"ArrowDownward");export{u as d};
