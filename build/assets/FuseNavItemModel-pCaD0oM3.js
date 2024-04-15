@@ -1,1 +1,0 @@
-import{_ as l}from"./index-C8FJCBfb.js";function s(e){return e=e||{},l.defaults(e,{id:l.uniqueId(),title:"",translate:"",auth:null,subtitle:"",icon:"",iconClass:"",url:"",target:"",type:"item",sx:{},disabled:!1,active:!1,exact:!1,end:!1,badge:null,children:[]})}export{s as F};

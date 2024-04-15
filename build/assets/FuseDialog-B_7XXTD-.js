@@ -1,1 +1,0 @@
-import{u as o,a as e,j as l,D as t}from"./index-C8FJCBfb.js";import{s as i,c as p}from"./fuseDialogSlice-CEKAZNVj.js";function u(){const s=o(),a=e(i);return l(t,{onClose:()=>s(p()),"aria-labelledby":"fuse-dialog-title",classes:{paper:"rounded-8"},...a})}export{u as default};
