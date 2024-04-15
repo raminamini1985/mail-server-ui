@@ -1,0 +1,1 @@
+import{br as r,ag as a,bs as t}from"./index-B-gixM8z.js";var e={},o=a;Object.defineProperty(e,"__esModule",{value:!0});var u=e.default=void 0,v=o(r()),s=t;u=e.default=(0,v.default)((0,s.jsx)("path",{d:"M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"}),"Home");export{u as d};

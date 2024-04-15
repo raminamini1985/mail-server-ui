@@ -1,1 +1,0 @@
-import{r as t,j as g,d3 as n}from"./index-Dboj72Vj.js";const d=t.forwardRef((e,r)=>{const{code:a,language:o,...s}=e;return g(n,{component:"pre",className:`language-${o||"jsx"}`,ref:r,...s,children:a})});export{d as H};

@@ -10,17 +10,17 @@ import {
   selectToolbarTheme,
 } from '@fuse/core/FuseSettings/fuseSettingsSlice'
 import { Layout1ConfigDefaultsType } from 'app/theme-layouts/layout1/Layout1Config'
-import NotificationPanelToggleButton from 'src/app/main/apps/notifications/NotificationPanelToggleButton'
+// import NotificationPanelToggleButton from 'src/app/main/apps/notifications/NotificationPanelToggleButton'
 import NavbarToggleButton from 'app/theme-layouts/shared-components/navbar/NavbarToggleButton'
 import { selectFuseNavbar } from 'app/theme-layouts/shared-components/navbar/navbarSlice'
 import { useAppSelector } from 'app/store/hooks'
-import AdjustFontSize from '../../shared-components/AdjustFontSize'
-import FullScreenToggle from '../../shared-components/FullScreenToggle'
-import LanguageSwitcher from '../../shared-components/LanguageSwitcher'
-import NavigationShortcuts from '../../shared-components/navigation/NavigationShortcuts'
-import NavigationSearch from '../../shared-components/navigation/NavigationSearch'
-import UserMenu from '../../shared-components/UserMenu'
-import QuickPanelToggleButton from '../../shared-components/quickPanel/QuickPanelToggleButton'
+// import AdjustFontSize from '../../shared-components/AdjustFontSize'
+// import FullScreenToggle from '../../shared-components/FullScreenToggle'
+// import LanguageSwitcher from '../../shared-components/LanguageSwitcher'
+// import NavigationShortcuts from '../../shared-components/navigation/NavigationShortcuts'
+// import NavigationSearch from '../../shared-components/navigation/NavigationSearch'
+// import UserMenu from '../../shared-components/UserMenu'
+// import QuickPanelToggleButton from '../../shared-components/quickPanel/QuickPanelToggleButton'
 
 type ToolbarLayout1Props = {
   className?: string
@@ -53,8 +53,8 @@ function ToolbarLayout1(props: ToolbarLayout1Props) {
         elevation={0}
       >
         <Toolbar className="min-h-48 p-0 md:min-h-64">
-          <div className="flex flex-1 px-16">
-            {/* {config.navbar.display && config.navbar.position === 'left' && (
+          {/* <div className="flex flex-1 px-16">
+            {config.navbar.display && config.navbar.position === 'left' && (
               <>
                 <Hidden lgDown>
                   {(config.navbar.style === 'style-3' ||
@@ -75,18 +75,18 @@ function ToolbarLayout1(props: ToolbarLayout1Props) {
 
             <Hidden lgDown>
               <NavigationShortcuts />
-            </Hidden> */}
-          </div>
+            </Hidden>
+          </div> */}
 
-          <div className="flex h-full items-center overflow-x-auto px-8">
-            {/* <LanguageSwitcher />
+          {/* <div className="flex h-full items-center overflow-x-auto px-8">
+            <LanguageSwitcher />
             <AdjustFontSize />
             <FullScreenToggle />
             <NavigationSearch />
             <QuickPanelToggleButton />
-            <NotificationPanelToggleButton /> */}
+            <NotificationPanelToggleButton />
             <UserMenu />
-          </div>
+          </div> */}
 
           {config.navbar.display && config.navbar.position === 'right' && (
             <>
